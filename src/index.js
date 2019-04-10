@@ -1,3 +1,3 @@
-const server = require('./server')
+const express = require('./server')
 
-server.listen(process.env.PORT || 3000)
+express.listen(process.env.PORT || 3000)

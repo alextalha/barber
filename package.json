@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "noddemon src/index.js"
+    "start": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +20,6 @@
   },
   "dependencies": {
     "express": "^4.16.4",
-    "nunjucks": "^3.2.0"
+    "nunjucks": "^3.1.4"
   }
 }
